@@ -78,6 +78,7 @@
   justify-content: space-around;
   place-items: center;
   height: 20rem;
+  margin-left: 40px;
 }
 
 .down,
@@ -107,7 +108,7 @@
 }
 
 .buttons {
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
@@ -119,4 +120,20 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.quarterButton , .downButton {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border-radius: 4px;
+  margin-left: -60px;
+}
+
+.quarterButton {
+  margin-top: 640px;
+}
+
+.downButton {
+  margin-top: 25px;
 }
